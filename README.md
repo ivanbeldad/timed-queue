@@ -1,4 +1,4 @@
-# Time Queue
+# Timed Queue
 
 <p align="center">
   <img src="./logo.png">
@@ -6,7 +6,33 @@
 
 Create a queue to limit async execution in time
 
+## Examples
+
+```javascript
+// Execute 5 functions at the same time, but never more than 5 per second.
+const queue = require('@ivandelabeldad/timed-queue').create({ items: 5, time: 1000 })
+```
+
+### Promises approach example
+
+```javascript
+queue.add(myPromise)
+  .then(result => console.log(`My result after completed! => ${result}`))
+  .catch(error => console.error(`Oh no! After all the work it failed! => ${error}`))
+```
+
+### Async/Await approach example
+
+```javascript
+try {
+  const result = await queue.add(myAsyncFunction)
+  console.log(`My result after completed! => ${result}`))
+} catch (error) {
+  console.error(`Oh no! After all the work it failed! => ${error}`))
+}
+```
+
 ## License
 
-Time Queue is open-sourced software licensed under
-the [MIT license](https://github.com/ivandelabeldad/time-queue/blob/master/LICENSE).
+Timed Queue is open-sourced software licensed under
+the [MIT license](https://github.com/ivandelabeldad/timed-queue/blob/master/LICENSE).

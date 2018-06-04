@@ -1,5 +1,5 @@
 {
-  "name": "time-queue",
+  "name": "@ivandelabeldad/timed-queue",
   "version": "0.0.1",
   "description": "Create a queue to limit async execution in time",
   "main": "src/main.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivandelabeldad/time-queue.git"
+    "url": "git+https://github.com/ivandelabeldad/timed-queue.git"
   },
   "keywords": [
     "async",
@@ -21,9 +21,9 @@
   "author": "Ivan de la Beldad Fernandez <ivandelabeldad@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivandelabeldad/time-queue/issues"
+    "url": "https://github.com/ivandelabeldad/timed-queue/issues"
   },
-  "homepage": "https://github.com/ivandelabeldad/time-queue#readme",
+  "homepage": "https://github.com/ivandelabeldad/timed-queue#readme",
   "devDependencies": {
     "standard": "^11.0.1"
   },
