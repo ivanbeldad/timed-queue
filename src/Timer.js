@@ -1,11 +1,11 @@
-const DEFAULT_INTERVAL = 100
+const DEFAULT_INTERVAL = 50
 
 class Timer {
   /**
    *
    * @param {object} options
-   * @param {number} [options.interval] Check condition each "interval" time. Default 100ms.
-   * @param {function} options.action
+   * @param {number} [options.interval] Check condition each "interval" time. Default 50ms.
+   * @param {function} options.action Function to execute each interval.
    */
   constructor (options) {
     this.interval = options.interval || DEFAULT_INTERVAL

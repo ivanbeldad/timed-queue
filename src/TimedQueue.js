@@ -15,10 +15,14 @@ class TimedQueue {
     const opts = options || {}
     this.items = opts.items || DEFAULT_ITEMS
     this.time = opts.time || DEFAULT_TIME
+
     /** @type {QueueItem[]} */
     this.queue = []
     this.executing = 0
     this.timer = opts.timer || new Timer({ action: this.check.bind(this) })
+    if (opts.time === 0) {
+      this.time = 0
+    }
   }
 
   /**
@@ -36,8 +40,8 @@ class TimedQueue {
    * @return {boolean}
    */
   shouldExecute () {
-    if (this.queue.length === 0) return false
     if (this.executing >= this.items) return false
+    if (this.queue.length === 0) return false
     return true
   }
 
