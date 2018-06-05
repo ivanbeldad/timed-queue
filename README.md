@@ -1,8 +1,11 @@
 # Timed Queue
 
 <p align="center">
-  <img src="./logo.png">
+  <img src="https://raw.githubusercontent.com/ivandelabeldad/timed-queue/master/logo/logo.png">
 </p>
+
+[![NPM Version](https://img.shields.io/npm/v/@ivandelabeldad/timed-queue.svg)](https://www.npmjs.com/package/@ivandelabeldad/timed-queue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ivandelabeldad/timed-queue/blob/master/LICENSE)
 
 Create a queue to limit async execution in time
 

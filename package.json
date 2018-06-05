@@ -1,6 +1,6 @@
 {
   "name": "@ivandelabeldad/timed-queue",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Create a queue to limit async execution in time",
   "main": "src/main.js",
   "scripts": {
