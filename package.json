@@ -1,6 +1,6 @@
 {
   "name": "@ivanbeldad/timed-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a queue to limit async execution in time",
   "main": "src/main.js",
   "scripts": {

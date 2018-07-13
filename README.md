@@ -4,7 +4,7 @@
   <img src="logo/logo.png">
 </p>
 
-[![NPM Version](https://img.shields.io/npm/v/@ivandelabeldad/timed-queue.svg)](https://www.npmjs.com/package/@ivanbeldad/timed-queue)
+[![NPM Version](https://img.shields.io/npm/v/@ivanbeldad/timed-queue.svg)](https://www.npmjs.com/package/@ivanbeldad/timed-queue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
 Create a queue to limit async execution in time
