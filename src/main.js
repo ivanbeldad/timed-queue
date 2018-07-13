@@ -6,9 +6,9 @@ module.exports = {
    * @default options.items=10
    * @default options.time=1000
    * @param {object} [options]
-   * @param {number} [options.items=10] The number of items that can run simultaneously
+   * @param {number} [options.items] The number of items that can run simultaneously
    * in the desired time.
-   * @param {number} [options.time = 1000] Limit time in ms to execute the number of "items".
+   * @param {number} [options.time] Limit time in ms to execute the number of "items".
    * Set it to 0 to remove time limit.
    */
   create: (options) => {

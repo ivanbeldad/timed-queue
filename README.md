@@ -1,11 +1,11 @@
 # Timed Queue
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ivandelabeldad/timed-queue/master/logo/logo.png">
+  <img src="logo/logo.png">
 </p>
 
-[![NPM Version](https://img.shields.io/npm/v/@ivandelabeldad/timed-queue.svg)](https://www.npmjs.com/package/@ivandelabeldad/timed-queue)
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ivandelabeldad/timed-queue/blob/master/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/@ivandelabeldad/timed-queue.svg)](https://www.npmjs.com/package/@ivanbeldad/timed-queue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
 Create a queue to limit async execution in time
 
@@ -13,7 +13,7 @@ Create a queue to limit async execution in time
 
 ```javascript
 // Execute 5 functions at the same time, but never more than 5 per second.
-const queue = require('@ivandelabeldad/timed-queue').create({ items: 5, time: 1000 })
+const queue = require('@ivanbeldad/timed-queue').create({ items: 5, time: 1000 })
 ```
 
 ### Promises approach example
@@ -38,4 +38,4 @@ try {
 ## License
 
 Timed Queue is open-sourced software licensed under
-the [MIT license](https://github.com/ivandelabeldad/timed-queue/blob/master/LICENSE).
+the [MIT license](LICENSE).
