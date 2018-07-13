@@ -1,11 +1,11 @@
 # Timed Queue
 
 <p align="center">
-  <img src="logo/logo.png">
+  <img src="https://raw.githubusercontent.com/ivanbeldad/timed-queue/master/logo/logo.png">
 </p>
 
 [![NPM Version](https://img.shields.io/npm/v/@ivanbeldad/timed-queue.svg)](https://www.npmjs.com/package/@ivanbeldad/timed-queue)
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ivanbeldad/timed-queue/blob/master/LICENSE)
 
 Create a queue to limit async execution in time
 
@@ -38,4 +38,4 @@ try {
 ## License
 
 Timed Queue is open-sourced software licensed under
-the [MIT license](LICENSE).
+the [MIT license](https://github.com/ivanbeldad/timed-queue/blob/master/LICENSE).
